@@ -1,0 +1,25 @@
+__pycache__/
+*.pyc
+.env
+.env.*
+!.env.example
+*.pt
+*.pth
+*.mp4
+*.wav
+*.log
+data/
+outputs/
+checkpoints/
+
+# Local credentials and runtime data
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+cloud_config.json
+med_status.json
+runtime_status.json
+upload_records.jsonl
+uploads/
